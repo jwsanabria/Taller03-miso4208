@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="buscadorProfesor"
+    errors="0" failures="1" hostname="" id="" package="buscadorProfesor" skipped="1"
+    tests="2" time="54.33" timestamp="Thu, 30 Aug 2018 06:17:43 GMT">
+  
+    <testcase name="Buscar profesor y dirigirse a su página" classname="buscadorProfesor" time="54.33" assertions="1">  <failure message="Timed out while waiting for element &lt;div[class=&#34;Select-option is-focused&#34;]&gt; to be present for 50000 milliseconds.">    at Object.Buscar profesor y dirigirse a su página (/home/miso4208/Desktop/Taller3/nightwatch/test/buscadorProfesor.js:10:8)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Filtro por materia en la pagina de un profesor" classname="buscadorProfesor">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
